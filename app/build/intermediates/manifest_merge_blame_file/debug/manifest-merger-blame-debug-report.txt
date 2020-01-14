@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dialogflow"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:6:5-71
+12-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\b3a5069d4ceed02d47b33b23b4e3aaf9\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+13-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\b3a5069d4ceed02d47b33b23b4e3aaf9\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+14
+15    <application
+15-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:8:5-25:19
+16        android:allowBackup="true"
+16-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:13:9-35
+23        android:theme="@style/AppTheme" >
+23-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity android:name="com.example.dialogflow.MainActivity" >
+24-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:15:9-21:20
+24-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:15:19-47
+25            <intent-filter>
+25-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:17:17-69
+26-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:19:17-77
+28-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <meta-data
+32-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:22:9-24:57
+33            android:name="preloaded_fonts"
+33-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:23:13-43
+34            android:resource="@array/preloaded_fonts" />
+34-->D:\Android Projects\DialogFlow\app\src\main\AndroidManifest.xml:24:13-54
+35
+36        <activity
+36-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\1260e024859b483408d40db8510375d7\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+37            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+37-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\1260e024859b483408d40db8510375d7\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+38            android:exported="false"
+38-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\1260e024859b483408d40db8510375d7\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+39            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+39-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\1260e024859b483408d40db8510375d7\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+40
+41        <provider
+41-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\53352a0d844afd67a3e53b1df68c5297\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+42            android:name="com.google.firebase.provider.FirebaseInitProvider"
+42-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\53352a0d844afd67a3e53b1df68c5297\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+43            android:authorities="com.example.dialogflow.firebaseinitprovider"
+43-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\53352a0d844afd67a3e53b1df68c5297\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+44            android:exported="false"
+44-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\53352a0d844afd67a3e53b1df68c5297\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+45            android:initOrder="100" />
+45-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\53352a0d844afd67a3e53b1df68c5297\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+46
+47        <meta-data
+47-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\bb3afaf8eb854c5532e173d68a9b422b\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+48            android:name="com.google.android.gms.version"
+48-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\bb3afaf8eb854c5532e173d68a9b422b\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Zeeshan\.gradle\caches\transforms-2\files-2.1\bb3afaf8eb854c5532e173d68a9b422b\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+50    </application>
+51
+52</manifest>
